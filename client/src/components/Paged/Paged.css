@@ -1,0 +1,67 @@
+.cont_paged{
+    background: linear-gradient(white, violet, white);
+    height: 7.5vh;
+    border-radius: 10px;
+    opacity: 0.92;
+    width: 50%;
+    display: grid;
+    place-content: center;
+    margin-left: 350px;
+    margin-top: 10px;
+    border: groove 2px white;
+    box-shadow: 0 0 50px black;
+}
+
+.list_paged{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.number_paged{
+    background: black;
+    color: white;
+    font-size: 20px;
+    border: white solid 2px;
+    width: 30px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    text-shadow: 0 0 2px violet;
+}
+
+.number_paged:hover{
+    background-color: white;
+    transform: scale(1.1);
+    color: black;
+    border-color: violet;
+}
+
+.number_paged:focus{
+    background-color: white;
+    transform: scale(1.1);
+    color: black;
+    border-color: violet;
+}
+
+.button_paged{
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    height: 40px;
+    margin-right: 60px;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px black;
+    border-style:groove;
+    text-decoration: underline;
+    border-radius: 8px;
+    
+}
+
+.button_paged:hover {
+    transform: scale(1.05);
+    background-color: black;
+    color: white;
+}

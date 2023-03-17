@@ -1,0 +1,81 @@
+.img_game {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    opacity: 0.8;
+    background-color: violet;
+    padding: 3px;
+    box-shadow: 0 0 8px violet;
+    margin-top: 5px;
+}
+
+
+.img_game:hover {
+    opacity: 1;
+    transform: translateY(-5px);
+    transition: 1s; 
+    box-shadow: 0 0 8px black;
+    background-color: black;
+
+}
+
+.cont_game {
+    border: dotted gray 2px;
+    border-radius: 100px;
+    background: url(https://th.bing.com/th/id/R.e01d13ccf634129494a45bab94561aef?rik=BKZe%2b7%2fatVfS9Q&pid=ImgRaw&r=0);
+    background-size: contain;
+    width: 660px;
+    height: 380px;
+    font-style: oblique;
+    text-decoration-color: black;
+    text-decoration-style: double;
+    text-rendering: optimizeLegibility;
+    opacity: 0.92;
+    box-shadow: 0 0 10px black;
+    letter-spacing: 1pt;
+}
+
+.cont_game:hover {
+    background: linear-gradient(black, violet, white);
+    color: black;
+}
+
+
+.name_game {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-rendering: optimizeLegibility;
+   text-align: center;
+   text-decoration: underline;
+   text-decoration-color: black;
+   text-decoration-style:double;
+   font-optical-sizing:initial;
+   font-weight:bold;
+   letter-spacing: 0.5px;
+   text-shadow: 0 0 3px violet;
+   font-size: 19px;
+}
+
+.name_game::first-letter{
+    font-size: 25px;
+    font-style: normal;
+    
+}
+
+.name_game:hover{
+    text-shadow: 0 0 3px white;
+    text-decoration-color: white;
+    
+}
+
+.details_game {
+    opacity: 0.9;
+    text-shadow: 0 0 3px white;
+    font-weight: 400;
+    letter-spacing: 3pt;
+    font-size: 18px;
+}
+
+.details_game:hover{
+    opacity: 1;
+    text-shadow: 0 0 3px black;
+}

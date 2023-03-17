@@ -1,0 +1,67 @@
+.cont_nav {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.cont_nav select {
+    height: 50%;
+    border-radius: 6px;
+    text-shadow: 0 0 2px white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+}
+
+#b_nav{
+    border-radius: 25%;
+    border: 1px outset white;
+    display: flex;
+    position: relative;
+    top: 5px;
+    left: 1.48px; 
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 103px;
+    width: 2.2vw;
+    transform: translateY(-36px);
+    height: 4.8vh;
+    background-color:skyblue;
+    color: black;
+    text-shadow:0 0 3px black;
+    box-shadow: 0 0 3px skyblue;
+    transition: all 1s;
+    padding: 15px;
+
+}
+
+#b_nav:hover {
+    transform: translateY(-36px) scale(1.08);
+    background-color: black;
+    color: white;
+    border: white outset 1px;
+    box-shadow: 0 0 10px white;
+
+}
+
+#b_nav:hover::after{
+    position: absolute;
+    content: 'Go Search↵';
+    background-color: black;
+    left: 32px;
+    width: 150px;
+    border-radius: 10px;
+    border: 3px solid white;
+    border-top-left-radius:80%;
+    border-bottom-left-radius:80%;
+    box-shadow: 0 0 10px white;
+
+}
+
+#inp_nav{
+    width: 70%;
+    background-color: white;
+    font-weight: bolder;
+    height: 4vh;
+    margin-right: 30px;
+    border-radius: 6px;
+}
